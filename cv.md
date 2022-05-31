@@ -1,5 +1,5 @@
-#Carolina Rudkova
-##Contacts:
+# Carolina Rudkova
+## Contacts:
 - **Phone:** +37525-953-31-15
 - **E-mail:** carolinarudkova@gmail.com
 - **GitHub:** CarolineRudkova
