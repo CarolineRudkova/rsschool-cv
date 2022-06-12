@@ -24,6 +24,10 @@ body {
     font-family: 'Open Sans', sans-serif;
 }
 
+hr {
+    border: 0.5px solid #aca0703f;
+}
+
 .container {
     max-width: 1440px;
     margin: 0 auto;
@@ -39,7 +43,7 @@ body {
 .section {
     width: 50%;
     margin: 0; 
-    padding: 30px;
+    padding: 20px;
 }
 
 .section-title {
@@ -93,6 +97,10 @@ body {
     padding: 30px;
 }
 
+.code {
+    background-color: #aca0703f;
+}
+
 .photo {
     height: 200px;
 }
@@ -102,7 +110,8 @@ body {
 }
 
 .nav-link,
-.main-link {
+.main-link,
+.project-link {
     color: #aca070;
 }
 
