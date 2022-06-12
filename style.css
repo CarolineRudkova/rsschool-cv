@@ -1,9 +1,129 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth; 
+}
+
+header {
+    background-color: #000000;
+}
+
+footer {
+    background-color: #aca070;
+}
+
 body {
-    background-color: powderblue;
+    min-height: 100vh;
+    margin: 0; 
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-family: 'Open Sans', sans-serif;
 }
-h1 {
-    color: blue;
+
+hr {
+    border: 0.5px solid #aca0703f;
 }
-p {
-    color: red;
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.main-container {
+    max-width: 1440px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.section {
+    width: 50%;
+    margin: 0; 
+    padding: 20px;
+}
+
+.section-title {
+    font-size: 20px;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #aca070;
+  }
+
+@media (max-width: 768px) {
+    .section,
+    .section-profile {
+      width: 100%;
+    }
+}
+
+.nav-list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    padding: 0 20px;
+    line-height: 50px;
+    font-size: 14px;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #aca070;
+}
+
+.main-profile {
+    max-width: 1440px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    font-weight: 800;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 2px;
+    color: #ffffff;
+    background-color: #000000;
+}
+
+.section-profile {
+    width: 50%;
+    margin: 0; 
+    padding: 30px;
+}
+
+.code {
+    background-color: #aca0703f;
+}
+
+.photo {
+    height: 200px;
+}
+
+.rss-logo {
+    height: 50px;
+}
+
+.nav-link,
+.main-link,
+.project-link {
+    color: #aca070;
+}
+
+.footer .container {
+    max-width: 1440px;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 800;
+}
+
+.footer-link {
+    color: #000000;
 }
